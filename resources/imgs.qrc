@@ -1,0 +1,63 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/img/ride_scooter">
+        <file alias="ride_scooter_0.png">img/ride_scooter/ride_scooter_0.png</file>
+        <file alias="ride_scooter_1.png">img/ride_scooter/ride_scooter_1.png</file>
+    </qresource>
+    <qresource prefix="/img/rolling">
+        <file alias="rolling_0.png">img/rolling/rolling_0.png</file>
+        <file alias="rolling_1.png">img/rolling/rolling_1.png</file>
+        <file alias="rolling_2.png">img/rolling/rolling_2.png</file>
+        <file alias="rolling_3.png">img/rolling/rolling_3.png</file>
+        <file alias="rolling_4.png">img/rolling/rolling_4.png</file>
+        <file alias="rolling_5.png">img/rolling/rolling_5.png</file>
+        <file alias="rolling_6.png">img/rolling/rolling_6.png</file>
+        <file alias="rolling_7.png">img/rolling/rolling_7.png</file>
+        <file alias="rolling_8.png">img/rolling/rolling_8.png</file>
+        <file alias="rolling_9.png">img/rolling/rolling_9.png</file>
+        <file alias="rolling_10.png">img/rolling/rolling_10.png</file>
+        <file alias="rolling_11.png">img/rolling/rolling_11.png</file>
+        <file alias="rolling_12.png">img/rolling/rolling_12.png</file>
+        <file alias="rolling_13.png">img/rolling/rolling_13.png</file>
+        <file alias="rolling_14.png">img/rolling/rolling_14.png</file>
+        <file alias="rolling_15.png">img/rolling/rolling_15.png</file>
+        <file alias="rolling_16.png">img/rolling/rolling_16.png</file>
+        <file alias="rolling_17.png">img/rolling/rolling_17.png</file>
+        <file alias="rolling_18.png">img/rolling/rolling_18.png</file>
+        <file alias="rolling_19.png">img/rolling/rolling_19.png</file>
+    </qresource>
+    <qresource prefix="/img/bickering">
+        <file alias="bickering_0.png">img/bickering/bickering_0.png</file>
+        <file alias="bickering_1.png">img/bickering/bickering_1.png</file>
+        <file alias="bickering_2.png">img/bickering/bickering_2.png</file>
+        <file alias="bickering_3.png">img/bickering/bickering_3.png</file>
+        <file alias="bickering_4.png">img/bickering/bickering_4.png</file>
+        <file alias="bickering_5.png">img/bickering/bickering_5.png</file>
+        <file alias="bickering_6.png">img/bickering/bickering_6.png</file>
+        <file alias="bickering_7.png">img/bickering/bickering_7.png</file>
+    </qresource>
+    <qresource prefix="/img/melody_sprint">
+        <file alias="melody_sprint_0.png">img/melody_sprint/melody_sprint_0.png</file>
+        <file alias="melody_sprint_1.png">img/melody_sprint/melody_sprint_1.png</file>
+        <file alias="melody_sprint_2.png">img/melody_sprint/melody_sprint_2.png</file>
+        <file alias="melody_sprint_3.png">img/melody_sprint/melody_sprint_3.png</file>
+        <file alias="melody_sprint_4.png">img/melody_sprint/melody_sprint_4.png</file>
+        <file alias="melody_sprint_5.png">img/melody_sprint/melody_sprint_5.png</file>
+        <file alias="melody_sprint_6.png">img/melody_sprint/melody_sprint_6.png</file>
+        <file alias="melody_sprint_7.png">img/melody_sprint/melody_sprint_7.png</file>
+        <file alias="melody_sprint_8.png">img/melody_sprint/melody_sprint_8.png</file>
+        <file alias="melody_sprint_9.png">img/melody_sprint/melody_sprint_9.png</file>
+        <file alias="melody_sprint_10.png">img/melody_sprint/melody_sprint_10.png</file>
+    </qresource>
+    <qresource prefix="/img/ride_maltese">
+        <file alias="ride_maltese_0.png">img/ride_maltese/ride_maltese_0.png</file>
+        <file alias="ride_maltese_1.png">img/ride_maltese/ride_maltese_1.png</file>
+        <file alias="ride_maltese_2.png">img/ride_maltese/ride_maltese_2.png</file>
+        <file alias="ride_maltese_3.png">img/ride_maltese/ride_maltese_3.png</file>
+        <file alias="ride_maltese_4.png">img/ride_maltese/ride_maltese_4.png</file>
+        <file alias="ride_maltese_5.png">img/ride_maltese/ride_maltese_5.png</file>
+    </qresource>
+    <qresource prefix="/img">
+        <file alias="icon.png">img/icon.png</file>
+    </qresource>
+</RCC>

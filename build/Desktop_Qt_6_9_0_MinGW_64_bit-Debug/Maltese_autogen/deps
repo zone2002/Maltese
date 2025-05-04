@@ -608,25 +608,25 @@ Maltese_autogen/timestamp: \
 	D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
 	D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
 	D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
-	E:/Code/QT/Maltese/AnimatedWidget.cpp \
-	E:/Code/QT/Maltese/AnimatedWidget.h \
-	E:/Code/QT/Maltese/AnimationController.cpp \
-	E:/Code/QT/Maltese/AnimationController.h \
-	E:/Code/QT/Maltese/AppController.cpp \
-	E:/Code/QT/Maltese/AppController.h \
 	E:/Code/QT/Maltese/CMakeLists.txt \
-	E:/Code/QT/Maltese/DraggableWidget.cpp \
-	E:/Code/QT/Maltese/DraggableWidget.h \
-	E:/Code/QT/Maltese/ResourceManager.cpp \
-	E:/Code/QT/Maltese/ResourceManager.h \
-	E:/Code/QT/Maltese/RoleAct.h \
-	E:/Code/QT/Maltese/TrayMenuBuilder.cpp \
-	E:/Code/QT/Maltese/TrayMenuBuilder.h \
 	E:/Code/QT/Maltese/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake \
 	E:/Code/QT/Maltese/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
 	E:/Code/QT/Maltese/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake \
 	E:/Code/QT/Maltese/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
 	E:/Code/QT/Maltese/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/Maltese_autogen/moc_predefs.h \
-	E:/Code/QT/Maltese/imgs.qrc \
-	E:/Code/QT/Maltese/main.cpp \
+	E:/Code/QT/Maltese/include/AnimatedWidget.h \
+	E:/Code/QT/Maltese/include/AnimationController.h \
+	E:/Code/QT/Maltese/include/AppController.h \
+	E:/Code/QT/Maltese/include/DraggableWidget.h \
+	E:/Code/QT/Maltese/include/ResourceManager.h \
+	E:/Code/QT/Maltese/include/RoleAct.h \
+	E:/Code/QT/Maltese/include/TrayMenuBuilder.h \
+	E:/Code/QT/Maltese/resources/imgs.qrc \
+	E:/Code/QT/Maltese/src/AnimatedWidget.cpp \
+	E:/Code/QT/Maltese/src/AnimationController.cpp \
+	E:/Code/QT/Maltese/src/AppController.cpp \
+	E:/Code/QT/Maltese/src/DraggableWidget.cpp \
+	E:/Code/QT/Maltese/src/ResourceManager.cpp \
+	E:/Code/QT/Maltese/src/TrayMenuBuilder.cpp \
+	E:/Code/QT/Maltese/src/main.cpp \
 	D:/Qt/Tools/CMake_64/bin/cmake.exe

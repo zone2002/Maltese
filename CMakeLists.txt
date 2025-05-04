@@ -2,73 +2,75 @@ cmake_minimum_required(VERSION 3.16)
 
 project(Maltese VERSION 0.1 LANGUAGES CXX)
 
+# 目录结构定义
+set(SRC_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src)
+set(INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/include)
+set(RES_DIR ${CMAKE_CURRENT_SOURCE_DIR}/resources)
+
+# 自动处理Qt元对象系统
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 
+# 编译器标准设置
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+# 查找Qt依赖
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
-set(PROJECT_SOURCES
-        main.cpp
-        # widget.cpp
-        # widget.h
+# 收集源文件（关键修改：分离头文件和源文件）
+file(GLOB_RECURSE SOURCES ${SRC_DIR}/*.cpp)
+file(GLOB_RECURSE HEADERS
+    ${INCLUDE_DIR}/*.h
+    ${SRC_DIR}/*.h  # 包含需要moc处理的头文件
 )
 
-if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
+# 资源文件配置
+set(QRC_FILES ${RES_DIR}/imgs.qrc)
+
+# 可执行目标配置
+if(QT_VERSION_MAJOR GREATER_EQUAL 6)
     qt_add_executable(Maltese
         MANUAL_FINALIZATION
-        ${PROJECT_SOURCES}
-        imgs.qrc
-
-
-
-
-
-
-
-        AppController.h AppController.cpp
-        ResourceManager.h ResourceManager.cpp
-        AnimationController.h AnimationController.cpp
-        DraggableWidget.h DraggableWidget.cpp
-        AnimatedWidget.h AnimatedWidget.cpp
-        RoleAct.h
-        TrayMenuBuilder.h
-        TrayMenuBuilder.cpp
-
-
-
-
+        ${SOURCES}
+        ${HEADERS}
+        ${QRC_FILES}
     )
-# Define target properties for Android with Qt 6 as:
-#    set_property(TARGET Maltese APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
-#                 ${CMAKE_CURRENT_SOURCE_DIR}/android)
-# For more information, see https://doc.qt.io/qt-6/qt-add-executable.html#target-creation
 else()
     if(ANDROID)
         add_library(Maltese SHARED
-            ${PROJECT_SOURCES}
+            ${SOURCES}
+            ${HEADERS}
+            ${QRC_FILES}
         )
-# Define properties for Android with Qt 5 after find_package() calls as:
-#    set(ANDROID_PACKAGE_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/android")
     else()
         add_executable(Maltese
-            ${PROJECT_SOURCES}
+            ${SOURCES}
+            ${HEADERS}
+            ${QRC_FILES}
         )
     endif()
 endif()
 
-target_link_libraries(Maltese PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+# 目标属性配置（必须在目标创建后设置）
+target_include_directories(Maltese PRIVATE
+    ${INCLUDE_DIR}
+    ${SRC_DIR}
+)
 
-# Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
-# If you are developing for iOS or macOS you should consider setting an
-# explicit, fixed bundle identifier manually though.
-if(${QT_VERSION} VERSION_LESS 6.1.0)
-  set(BUNDLE_ID_OPTION MACOSX_BUNDLE_GUI_IDENTIFIER com.example.Maltese)
+target_link_libraries(Maltese PRIVATE
+    Qt${QT_VERSION_MAJOR}::Widgets
+)
+
+# macOS/iOS捆绑包配置
+if(QT_VERSION VERSION_LESS 6.1.0)
+    set(BUNDLE_ID_OPTION
+        MACOSX_BUNDLE_GUI_IDENTIFIER com.example.Maltese
+    )
 endif()
+
 set_target_properties(Maltese PROPERTIES
     ${BUNDLE_ID_OPTION}
     MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
@@ -77,6 +79,7 @@ set_target_properties(Maltese PROPERTIES
     WIN32_EXECUTABLE TRUE
 )
 
+# 安装配置
 include(GNUInstallDirs)
 install(TARGETS Maltese
     BUNDLE DESTINATION .
@@ -84,6 +87,10 @@ install(TARGETS Maltese
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
 
+# Qt6最终化处理
 if(QT_VERSION_MAJOR EQUAL 6)
     qt_finalize_executable(Maltese)
 endif()
+
+# 生成compile_commands.json
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)

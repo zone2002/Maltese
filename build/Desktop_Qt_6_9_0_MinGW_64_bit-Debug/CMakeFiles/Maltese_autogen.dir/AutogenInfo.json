@@ -324,7 +324,7 @@
 		"D:/Qt/6.9.0/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake",
 		"D:/Qt/6.9.0/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake",
 		"D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/GNUInstallDirs.cmake",
-		"E:/Code/QT/Maltese/imgs.qrc"
+		"E:/Code/QT/Maltese/resources/imgs.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "E:/Code/QT/Maltese",
 	"CROSS_CONFIG" : false,
@@ -333,45 +333,45 @@
 	"HEADERS" : 
 	[
 		[
-			"E:/Code/QT/Maltese/AnimatedWidget.h",
+			"E:/Code/QT/Maltese/include/AnimatedWidget.h",
 			"MU",
-			"EWIEGA46WW/moc_AnimatedWidget.cpp",
+			"6YEA5652QU/moc_AnimatedWidget.cpp",
 			null
 		],
 		[
-			"E:/Code/QT/Maltese/AnimationController.h",
+			"E:/Code/QT/Maltese/include/AnimationController.h",
 			"MU",
-			"EWIEGA46WW/moc_AnimationController.cpp",
+			"6YEA5652QU/moc_AnimationController.cpp",
 			null
 		],
 		[
-			"E:/Code/QT/Maltese/AppController.h",
+			"E:/Code/QT/Maltese/include/AppController.h",
 			"MU",
-			"EWIEGA46WW/moc_AppController.cpp",
+			"6YEA5652QU/moc_AppController.cpp",
 			null
 		],
 		[
-			"E:/Code/QT/Maltese/DraggableWidget.h",
+			"E:/Code/QT/Maltese/include/DraggableWidget.h",
 			"MU",
-			"EWIEGA46WW/moc_DraggableWidget.cpp",
+			"6YEA5652QU/moc_DraggableWidget.cpp",
 			null
 		],
 		[
-			"E:/Code/QT/Maltese/ResourceManager.h",
+			"E:/Code/QT/Maltese/include/ResourceManager.h",
 			"MU",
-			"EWIEGA46WW/moc_ResourceManager.cpp",
+			"6YEA5652QU/moc_ResourceManager.cpp",
 			null
 		],
 		[
-			"E:/Code/QT/Maltese/RoleAct.h",
+			"E:/Code/QT/Maltese/include/RoleAct.h",
 			"MU",
-			"EWIEGA46WW/moc_RoleAct.cpp",
+			"6YEA5652QU/moc_RoleAct.cpp",
 			null
 		],
 		[
-			"E:/Code/QT/Maltese/TrayMenuBuilder.h",
+			"E:/Code/QT/Maltese/include/TrayMenuBuilder.h",
 			"MU",
-			"EWIEGA46WW/moc_TrayMenuBuilder.cpp",
+			"6YEA5652QU/moc_TrayMenuBuilder.cpp",
 			null
 		]
 	],
@@ -401,6 +401,8 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+		"E:/Code/QT/Maltese/include",
+		"E:/Code/QT/Maltese/src",
 		"D:/Qt/6.9.0/mingw_64/include/QtCore",
 		"D:/Qt/6.9.0/mingw_64/include",
 		"D:/Qt/6.9.0/mingw_64/mkspecs/win32-g++",
@@ -446,13 +448,13 @@
 	"SETTINGS_FILE" : "E:/Code/QT/Maltese/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/Maltese_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "E:/Code/QT/Maltese/AnimatedWidget.cpp", "MU", null ],
-		[ "E:/Code/QT/Maltese/AnimationController.cpp", "MU", null ],
-		[ "E:/Code/QT/Maltese/AppController.cpp", "MU", null ],
-		[ "E:/Code/QT/Maltese/DraggableWidget.cpp", "MU", null ],
-		[ "E:/Code/QT/Maltese/ResourceManager.cpp", "MU", null ],
-		[ "E:/Code/QT/Maltese/TrayMenuBuilder.cpp", "MU", null ],
-		[ "E:/Code/QT/Maltese/main.cpp", "MU", null ]
+		[ "E:/Code/QT/Maltese/src/AnimatedWidget.cpp", "MU", null ],
+		[ "E:/Code/QT/Maltese/src/AnimationController.cpp", "MU", null ],
+		[ "E:/Code/QT/Maltese/src/AppController.cpp", "MU", null ],
+		[ "E:/Code/QT/Maltese/src/DraggableWidget.cpp", "MU", null ],
+		[ "E:/Code/QT/Maltese/src/ResourceManager.cpp", "MU", null ],
+		[ "E:/Code/QT/Maltese/src/TrayMenuBuilder.cpp", "MU", null ],
+		[ "E:/Code/QT/Maltese/src/main.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
