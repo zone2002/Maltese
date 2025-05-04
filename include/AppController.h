@@ -1,8 +1,9 @@
+// 应用程序入口及系统托盘管理
 #ifndef APPCONTROLLER_H
 #define APPCONTROLLER_H
 
 #include <QObject>
-#include "TrayMenuBuilder.h"    // ← 添加这一行
+#include "TrayMenuBuilder.h"
 class QSystemTrayIcon;
 class AnimatedWidget;
 

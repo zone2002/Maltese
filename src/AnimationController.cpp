@@ -1,5 +1,5 @@
 #include "AnimationController.h"
-#include "ResourceManager.h"  // 现在放到 cpp，实现文件中再依赖
+#include "ResourceManager.h"
 
 AnimationController::AnimationController(QObject *parent)
     : QObject(parent),

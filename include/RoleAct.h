@@ -1,3 +1,4 @@
+// 枚举定义与元信息注册
 #ifndef ROLEACT_H
 #define ROLEACT_H
 

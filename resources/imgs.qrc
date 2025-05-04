@@ -1,5 +1,4 @@
-<!DOCTYPE RCC>
-<RCC version="1.0">
+<RCC>
     <qresource prefix="/img/ride_scooter">
         <file alias="ride_scooter_0.png">img/ride_scooter/ride_scooter_0.png</file>
         <file alias="ride_scooter_1.png">img/ride_scooter/ride_scooter_1.png</file>

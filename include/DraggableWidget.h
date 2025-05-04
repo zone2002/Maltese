@@ -1,3 +1,4 @@
+// 可拖拽窗口基类
 #ifndef DRAGGABLEWIDGET_H
 #define DRAGGABLEWIDGET_H
 

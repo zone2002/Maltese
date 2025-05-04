@@ -1,3 +1,4 @@
+// 控制帧动画的计时器与更新
 #ifndef ANIMATIONCONTROLLER_H
 #define ANIMATIONCONTROLLER_H
 
@@ -6,7 +7,7 @@
 #include <QUrl>
 #include <QList>
 
-#include "RoleAct.h"  // 定义在 namespace Act
+#include "RoleAct.h"
 
 class AnimationController : public QObject
 {

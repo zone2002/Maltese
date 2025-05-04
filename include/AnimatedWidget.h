@@ -1,3 +1,4 @@
+// 集成动画控制的自定义 QWidget
 #ifndef ANIMATEDWIDGET_H
 #define ANIMATEDWIDGET_H
 

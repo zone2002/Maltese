@@ -1,3 +1,4 @@
+// 构建系统托盘和右键菜单
 #ifndef TRAYMENUBUILDER_H
 #define TRAYMENUBUILDER_H
 

@@ -1,3 +1,4 @@
+// 资源路径管理与加载
 #ifndef RESOURCEMANAGER_H
 #define RESOURCEMANAGER_H
 
@@ -21,8 +22,7 @@ private:
     ResourceManager(const ResourceManager&) = delete;
     ResourceManager& operator=(const ResourceManager&) = delete;
 
-    /// 工具：添加一组帧资源
-    // void addFrames(Act::RoleAct act, const QString& pattern, int count);
+    /// 添加一组帧资源
     void addFrames(Act::RoleAct act, const QString& resourceDir);
 
     QMap<Act::RoleAct, QList<QUrl>> map_;  ///< 动画类型到帧列表的映射
