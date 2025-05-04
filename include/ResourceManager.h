@@ -22,8 +22,8 @@ private:
     ResourceManager& operator=(const ResourceManager&) = delete;
 
     /// 工具：添加一组帧资源
-    void addFrames(Act::RoleAct act, const QString& pattern, int count);
-    // void addFrames(Act::RoleAct act, const QString& resourceDir);
+    // void addFrames(Act::RoleAct act, const QString& pattern, int count);
+    void addFrames(Act::RoleAct act, const QString& resourceDir);
 
     QMap<Act::RoleAct, QList<QUrl>> map_;  ///< 动画类型到帧列表的映射
 };
