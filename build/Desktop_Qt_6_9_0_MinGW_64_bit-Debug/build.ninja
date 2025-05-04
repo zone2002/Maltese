@@ -65,9 +65,49 @@ build CMakeFiles/Maltese.dir/main.cpp.obj: CXX_COMPILER__Maltese_unscanned_Debug
   OBJECT_DIR = CMakeFiles\Maltese.dir
   OBJECT_FILE_DIR = CMakeFiles\Maltese.dir
 
-build CMakeFiles/Maltese.dir/widget.cpp.obj: CXX_COMPILER__Maltese_unscanned_Debug E$:/Code/QT/Maltese/widget.cpp || cmake_object_order_depends_target_Maltese
+build CMakeFiles/Maltese.dir/AppController.cpp.obj: CXX_COMPILER__Maltese_unscanned_Debug E$:/Code/QT/Maltese/AppController.cpp || cmake_object_order_depends_target_Maltese
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\Maltese.dir\widget.cpp.obj.d
+  DEP_FILE = CMakeFiles\Maltese.dir\AppController.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IE:/Code/QT/Maltese/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/Maltese_autogen/include -isystem D:/Qt/6.9.0/mingw_64/include/QtCore -isystem D:/Qt/6.9.0/mingw_64/include -isystem D:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem D:/Qt/6.9.0/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Maltese.dir
+  OBJECT_FILE_DIR = CMakeFiles\Maltese.dir
+
+build CMakeFiles/Maltese.dir/ResourceManager.cpp.obj: CXX_COMPILER__Maltese_unscanned_Debug E$:/Code/QT/Maltese/ResourceManager.cpp || cmake_object_order_depends_target_Maltese
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Maltese.dir\ResourceManager.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IE:/Code/QT/Maltese/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/Maltese_autogen/include -isystem D:/Qt/6.9.0/mingw_64/include/QtCore -isystem D:/Qt/6.9.0/mingw_64/include -isystem D:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem D:/Qt/6.9.0/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Maltese.dir
+  OBJECT_FILE_DIR = CMakeFiles\Maltese.dir
+
+build CMakeFiles/Maltese.dir/AnimationController.cpp.obj: CXX_COMPILER__Maltese_unscanned_Debug E$:/Code/QT/Maltese/AnimationController.cpp || cmake_object_order_depends_target_Maltese
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Maltese.dir\AnimationController.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IE:/Code/QT/Maltese/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/Maltese_autogen/include -isystem D:/Qt/6.9.0/mingw_64/include/QtCore -isystem D:/Qt/6.9.0/mingw_64/include -isystem D:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem D:/Qt/6.9.0/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Maltese.dir
+  OBJECT_FILE_DIR = CMakeFiles\Maltese.dir
+
+build CMakeFiles/Maltese.dir/DraggableWidget.cpp.obj: CXX_COMPILER__Maltese_unscanned_Debug E$:/Code/QT/Maltese/DraggableWidget.cpp || cmake_object_order_depends_target_Maltese
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Maltese.dir\DraggableWidget.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IE:/Code/QT/Maltese/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/Maltese_autogen/include -isystem D:/Qt/6.9.0/mingw_64/include/QtCore -isystem D:/Qt/6.9.0/mingw_64/include -isystem D:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem D:/Qt/6.9.0/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Maltese.dir
+  OBJECT_FILE_DIR = CMakeFiles\Maltese.dir
+
+build CMakeFiles/Maltese.dir/AnimatedWidget.cpp.obj: CXX_COMPILER__Maltese_unscanned_Debug E$:/Code/QT/Maltese/AnimatedWidget.cpp || cmake_object_order_depends_target_Maltese
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Maltese.dir\AnimatedWidget.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IE:/Code/QT/Maltese/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/Maltese_autogen/include -isystem D:/Qt/6.9.0/mingw_64/include/QtCore -isystem D:/Qt/6.9.0/mingw_64/include -isystem D:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem D:/Qt/6.9.0/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Maltese.dir
+  OBJECT_FILE_DIR = CMakeFiles\Maltese.dir
+
+build CMakeFiles/Maltese.dir/TrayMenuBuilder.cpp.obj: CXX_COMPILER__Maltese_unscanned_Debug E$:/Code/QT/Maltese/TrayMenuBuilder.cpp || cmake_object_order_depends_target_Maltese
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Maltese.dir\TrayMenuBuilder.cpp.obj.d
   FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
   INCLUDES = -IE:/Code/QT/Maltese/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/Maltese_autogen/include -isystem D:/Qt/6.9.0/mingw_64/include/QtCore -isystem D:/Qt/6.9.0/mingw_64/include -isystem D:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem D:/Qt/6.9.0/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\Maltese.dir
@@ -89,7 +129,7 @@ build CMakeFiles/Maltese.dir/Maltese_autogen/EWIEGA46WW/qrc_imgs.cpp.obj: CXX_CO
 #############################################
 # Link the executable Maltese.exe
 
-build Maltese.exe: CXX_EXECUTABLE_LINKER__Maltese_Debug CMakeFiles/Maltese.dir/Maltese_autogen/mocs_compilation.cpp.obj CMakeFiles/Maltese.dir/main.cpp.obj CMakeFiles/Maltese.dir/widget.cpp.obj CMakeFiles/Maltese.dir/Maltese_autogen/EWIEGA46WW/qrc_imgs.cpp.obj | D$:/Qt/6.9.0/mingw_64/lib/libQt6Widgets.a D$:/Qt/6.9.0/mingw_64/lib/libQt6Gui.a D$:/Qt/6.9.0/mingw_64/lib/libQt6Core.a D$:/Qt/6.9.0/mingw_64/lib/libQt6EntryPoint.a || Maltese_autogen Maltese_autogen_timestamp_deps
+build Maltese.exe: CXX_EXECUTABLE_LINKER__Maltese_Debug CMakeFiles/Maltese.dir/Maltese_autogen/mocs_compilation.cpp.obj CMakeFiles/Maltese.dir/main.cpp.obj CMakeFiles/Maltese.dir/AppController.cpp.obj CMakeFiles/Maltese.dir/ResourceManager.cpp.obj CMakeFiles/Maltese.dir/AnimationController.cpp.obj CMakeFiles/Maltese.dir/DraggableWidget.cpp.obj CMakeFiles/Maltese.dir/AnimatedWidget.cpp.obj CMakeFiles/Maltese.dir/TrayMenuBuilder.cpp.obj CMakeFiles/Maltese.dir/Maltese_autogen/EWIEGA46WW/qrc_imgs.cpp.obj | D$:/Qt/6.9.0/mingw_64/lib/libQt6Widgets.a D$:/Qt/6.9.0/mingw_64/lib/libQt6Gui.a D$:/Qt/6.9.0/mingw_64/lib/libQt6Core.a D$:/Qt/6.9.0/mingw_64/lib/libQt6EntryPoint.a || Maltese_autogen Maltese_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = D:/Qt/6.9.0/mingw_64/lib/libQt6Widgets.a  D:/Qt/6.9.0/mingw_64/lib/libQt6Gui.a  D:/Qt/6.9.0/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  D:/Qt/6.9.0/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32

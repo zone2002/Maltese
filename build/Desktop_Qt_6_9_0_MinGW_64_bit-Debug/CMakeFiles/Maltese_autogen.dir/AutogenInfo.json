@@ -333,9 +333,45 @@
 	"HEADERS" : 
 	[
 		[
-			"E:/Code/QT/Maltese/widget.h",
+			"E:/Code/QT/Maltese/AnimatedWidget.h",
 			"MU",
-			"EWIEGA46WW/moc_widget.cpp",
+			"EWIEGA46WW/moc_AnimatedWidget.cpp",
+			null
+		],
+		[
+			"E:/Code/QT/Maltese/AnimationController.h",
+			"MU",
+			"EWIEGA46WW/moc_AnimationController.cpp",
+			null
+		],
+		[
+			"E:/Code/QT/Maltese/AppController.h",
+			"MU",
+			"EWIEGA46WW/moc_AppController.cpp",
+			null
+		],
+		[
+			"E:/Code/QT/Maltese/DraggableWidget.h",
+			"MU",
+			"EWIEGA46WW/moc_DraggableWidget.cpp",
+			null
+		],
+		[
+			"E:/Code/QT/Maltese/ResourceManager.h",
+			"MU",
+			"EWIEGA46WW/moc_ResourceManager.cpp",
+			null
+		],
+		[
+			"E:/Code/QT/Maltese/RoleAct.h",
+			"MU",
+			"EWIEGA46WW/moc_RoleAct.cpp",
+			null
+		],
+		[
+			"E:/Code/QT/Maltese/TrayMenuBuilder.h",
+			"MU",
+			"EWIEGA46WW/moc_TrayMenuBuilder.cpp",
 			null
 		]
 	],
@@ -410,8 +446,13 @@
 	"SETTINGS_FILE" : "E:/Code/QT/Maltese/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/Maltese_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "E:/Code/QT/Maltese/main.cpp", "MU", null ],
-		[ "E:/Code/QT/Maltese/widget.cpp", "MU", null ]
+		[ "E:/Code/QT/Maltese/AnimatedWidget.cpp", "MU", null ],
+		[ "E:/Code/QT/Maltese/AnimationController.cpp", "MU", null ],
+		[ "E:/Code/QT/Maltese/AppController.cpp", "MU", null ],
+		[ "E:/Code/QT/Maltese/DraggableWidget.cpp", "MU", null ],
+		[ "E:/Code/QT/Maltese/ResourceManager.cpp", "MU", null ],
+		[ "E:/Code/QT/Maltese/TrayMenuBuilder.cpp", "MU", null ],
+		[ "E:/Code/QT/Maltese/main.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

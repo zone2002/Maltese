@@ -14,8 +14,8 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
 set(PROJECT_SOURCES
         main.cpp
-        widget.cpp
-        widget.h
+        # widget.cpp
+        # widget.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -23,6 +23,24 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
         imgs.qrc
+
+
+
+
+
+
+
+        AppController.h AppController.cpp
+        ResourceManager.h ResourceManager.cpp
+        AnimationController.h AnimationController.cpp
+        DraggableWidget.h DraggableWidget.cpp
+        AnimatedWidget.h AnimatedWidget.cpp
+        RoleAct.h
+        TrayMenuBuilder.h
+        TrayMenuBuilder.cpp
+
+
+
 
     )
 # Define target properties for Android with Qt 6 as:

@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-d75bfa677915f7a37b78.json",
+					"jsonFile" : "directory-.-Debug-71e317c098f7df993de2.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Maltese::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Maltese-Debug-65e11c8ac527fb2caf68.json",
+					"jsonFile" : "target-Maltese-Debug-bac0cb437ea55c9ec8c6.json",
 					"name" : "Maltese",
 					"projectIndex" : 0
 				},
