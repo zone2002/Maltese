@@ -47,5 +47,6 @@
         <file>img/ride_maltese/ride_maltese_3.png</file>
         <file>img/ride_maltese/ride_maltese_4.png</file>
         <file>img/ride_maltese/ride_maltese_5.png</file>
+        <file>img/icon.png</file>
     </qresource>
 </RCC>
